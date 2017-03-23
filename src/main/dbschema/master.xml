@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+    <changeSet author="niejinping (generated)" id="1490251694279-1">
+        <createTable tableName="test">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="niejinping (generated)" id="1490251725808-1">
+        <createTable tableName="test">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="create_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="niejinping (generated)" id="1490251794885-1">
+        <createTable tableName="test">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="create_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="update_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="niejinping (generated)" id="1490251825504-1">
+        <createTable tableName="test">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="create_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="update_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet author="niejinping (generated)" id="1490251874704-1">
+        <createTable tableName="test">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="create_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="update_at" type="INT">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
